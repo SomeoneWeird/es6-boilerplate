@@ -1,0 +1,33 @@
+{
+  "name": "es6-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate for a transpiled ES2016 library",
+  "main": "lib/index.js",
+  "scripts": {
+    "build-src": "./node_modules/.bin/babel src -d lib",
+    "build-test": "./node_modules/.bin/babel test-src -d test",
+    "build": "npm run build-src && npm run build-test",
+    "test": "npm run build && mocha -R spec --bail test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SomeoneWeird/es6-boilerplate.git"
+  },
+  "keywords": [
+    "es6",
+    "es2016",
+    "boilerplate",
+    "template"
+  ],
+  "author": "Adam Brady <adam@boxxen.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SomeoneWeird/es6-boilerplate/issues"
+  },
+  "homepage": "https://github.com/SomeoneWeird/es6-boilerplate#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^5.8.19",
+    "mocha": "^2.2.5"
+  }
+}
