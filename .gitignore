@@ -28,4 +28,4 @@ node_modules
 
 # Ignore ES5 files
 lib
-test
+.nyc_output

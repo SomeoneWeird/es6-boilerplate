@@ -1,3 +1,5 @@
 # Ignore ES6 source files
 src
-test-src
+test
+.nyc_output
+

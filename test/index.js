@@ -1,6 +1,6 @@
 import assert from "assert";
 
-import sayHello from "../lib/index.js";
+import sayHello from "../src/index.js";
 
 describe("sayHello", function() {
 
