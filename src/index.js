@@ -1,5 +1,5 @@
-function sayHello(name) {
-  return `Hello ${name}`;
+function sayHello (name) {
+  return `Hello ${name}`
 }
 
-export default sayHello;
+export default sayHello

@@ -1,15 +1,13 @@
-import assert from "assert";
+/*global describe, it*/
 
-import sayHello from "../src/index.js";
+import assert from 'assert'
 
-describe("sayHello", function() {
+import sayHello from '../src/index.js'
 
-  it("should say hello", function() {
+describe('sayHello', function () {
+  it('should say hello', function () {
+    let result = sayHello('john doe')
 
-    let result = sayHello("john doe");
-
-    assert.equal(result, "Hello john doe");
-
-  });
-
-});
+    assert.equal(result, 'Hello john doe')
+  })
+})
