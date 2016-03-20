@@ -6,7 +6,8 @@
   "scripts": {
     "build": "babel src -d lib",
     "test": "standard && mocha -r babel-register -R spec --bail",
-    "coverage": "nyc --reporter=lcov npm test"
+    "coverage": "nyc --reporter=lcov npm test",
+    "prepublish": "npm run test && npm run build"
   },
   "repository": {
     "type": "git",
